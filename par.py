@@ -25,7 +25,7 @@ def matriz_identidad(matriz):
     return valor
 
 def main():
-    print(matriz_identidad([[0,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]]))        
+    print(matriz_identidad([[0,0,0,0],[0,1,0,0],[3,0,1,0],[0,5,0,1]]))        
 
 if __name__ == '__main__':
     doctest.testmod()
