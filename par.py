@@ -8,7 +8,7 @@ def matriz_identidad(matriz):
     False
     >>> matriz_identidad([[1,0,0,0],[2,1,0,0],[0,1,0,0],[0,0,0,0]])
     False
-    >>> matriz_identidad([[0,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]])
+    >>> matriz_identidad([[1,0,0,0],[0,1,0,0],[0,0,1,1],[0,0,0,1]])
     False
     '''
     valor = True
