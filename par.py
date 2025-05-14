@@ -10,6 +10,8 @@ def matriz_identidad(matriz):
     False
     >>> matriz_identidad([[1,0,0,0],[0,1,0,0],[0,0,1,1],[0,0,0,1]])
     False
+    >>> matriz_identidad([[1,0,0,0],[0,1,0,0],[0,0,1,1],[0,0,0,1]])
+    False
     '''
     valor = True
     largo_fil = len(matriz)
